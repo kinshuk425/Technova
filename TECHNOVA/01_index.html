@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova - Technical Blog Website</title>
+    <link rel="stylesheet" href="05_style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>TechNova</h1>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Blogs">Blogs</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    
+
+    <section id="Home" style="text-align: center;">
+        <h2>Exploring the Future of Technology</h2>
+        <img src="Technology.png" class="hero-img">
+        <p class="ab">Welcome to TechNova — your source for the latest in coding, AI, and cybersecurity.</p>
+        <button id="readBtn">Read Articles</button>
+        <hr>
+    </section>
+
+    <section id="Blogs">
+        <h2 style="text-align: center;">Latest Articles</h2>
+       <div id="article">
+        <article>
+            <img src="Web.png" class="blog-img">
+            <h3>Web Development</h3>
+            <p>Learn the basics of HTML, CSS, and JavaScript.</p>
+            <a href="02_webdev.html">Read More</a>
+        </article>
+
+        <article>
+            <img src="Ai.png" class="blog-img">
+            <h3>Artificial Intelligence & Machine Learning</h3>
+            <p>Explore how AI is transforming industries.</p>
+            <a href="03_ai-ml.html">Read More</a>
+        </article>
+
+        <article>
+            <img src="Cyber.png" class="blog-img">
+            <h3>Cybersecurity</h3>
+            <p>Understand how to keep your systems safe and secure.</p>
+            <a href="04_cybersecurity.html">Read More</a>
+        </article></div>
+        <hr>
+    </section>
+
+    <section id="About" style="text-align: center;">
+        <h2>About TechNova</h2>
+        <img src="Technova.png" width="300px">
+        <p class="ab">This website is part of my Web Designing project. It shares knowledge about various technology domains in simple language.</p>
+        <hr>
+    </section>
+
+    <section id="Contact" style="text-align: center;">
+        <h2>Contact Us</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Send</button><br><br>
+        </form>
+    </section>
+
+    <footer>
+        
+        <p>&copy; 2025 TechNova | All Rights Reserved</p>
+    </footer>
+<script src="07_script.js"></script>
+
+</body>
+</html>

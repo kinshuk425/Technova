@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+   img {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ab{
+   font-size: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+#article{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.hero-img {
+    width: 500px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.blog-img {
+    width: 275px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    max-width: 350px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
