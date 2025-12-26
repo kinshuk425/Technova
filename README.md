@@ -21,5 +21,6 @@ I built it using "HTML, CSS, and basic JavaScript".
 - Improve table styles in all articles
 
 ## Author:--
-  Kinshuk Agrawal,
+  Kinshuk Agrawal
+  
   Student, B.Tech CSE (Cybersecurity) | KIET Ghaziabad
