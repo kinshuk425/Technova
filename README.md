@@ -14,12 +14,12 @@ I built it using "HTML, CSS, and basic JavaScript".
 - Separate pages for individual articles  
 - Styled tables in the Web Development page with colored borders  
 
-##Future Improvements:--
--Add a dark mode toggle
--Add more interactive JS features
--Add more articles and images dynamically
--Improve table styles in all articles
+## Future Improvements:--
+- Add a dark mode toggle
+- Add more interactive JS features
+- Add more articles and images dynamically
+- Improve table styles in all articles
 
-##Author:--
-Kinshuk Agrawal
-Student, B.Tech CSE (Cybersecurity) | KIET Ghaziabad
+## Author:--
+  Kinshuk Agrawal,
+  Student, B.Tech CSE (Cybersecurity) | KIET Ghaziabad
